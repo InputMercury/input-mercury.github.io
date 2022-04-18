@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Archiveimport;
+  font-weight: bold;
+  src: url("Archive.otf") format("opentype"); }
+/**
+
+.landing{
+  margin-left: 20%; //margin left must be += to sidebard width;
+  background-color: #fff;
+  width:80%;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+**/
+
+/*# sourceMappingURL=global.css.map */

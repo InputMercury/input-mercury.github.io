@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,UAG+C;EAF7C,WAAW,EAAE,aAAa;EAC1B,WAAW,EAAE,IAAI;EACjB,GAAG,EAAE,qCAAqC;AAE5C;;;;;;;;;;GAUG",
+"sources": ["global.scss"],
+"names": [],
+"file": "global.css"
+}
