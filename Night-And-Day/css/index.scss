@@ -224,3 +224,11 @@
 	0% {margin-left: 1000px;}
 	100% {margin-left: -1000px;}
 }
+
+.return-button{
+  z-index: 1000;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+}

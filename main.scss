@@ -35,12 +35,6 @@
   }
 }
 
-.container{
-  height: 100%;
-  width: 100%;
-  border: 1px solid black;
-}
-
 .footer{
   height: 300px;
   width: 100vw;
@@ -74,17 +68,24 @@
 }
 
 
-.container ul{
-  display: table;
+.container {
+  height: 100%;
   width: 100%;
-  table-layout: fixed;
-  margin: 0;
-  padding: 0;
-  li{
-    display: table-cell;
-    text-align: center;
+  border: 1px solid black;
+  .project-section-heading{
+    transform: translateX(15%);
   }
-
+  ul{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+    li{
+      display: table-cell;
+      text-align: center;
+    }
+  }
 }
 
 #container-image img{

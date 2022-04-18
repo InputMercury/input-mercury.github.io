@@ -27,11 +27,6 @@
         padding: 10px 5px;
         transition: ease-out 0.07s; }
 
-.container {
-  height: 100%;
-  width: 100%;
-  border: 1px solid black; }
-
 .footer {
   height: 300px;
   width: 100vw; }
@@ -59,15 +54,21 @@
     width: 66%;
     text-align: left; }
 
-.container ul {
-  display: table;
+.container {
+  height: 100%;
   width: 100%;
-  table-layout: fixed;
-  margin: 0;
-  padding: 0; }
-  .container ul li {
-    display: table-cell;
-    text-align: center; }
+  border: 1px solid black; }
+  .container .project-section-heading {
+    transform: translateX(15%); }
+  .container ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0; }
+    .container ul li {
+      display: table-cell;
+      text-align: center; }
 
 #container-image img {
   width: 300px;
