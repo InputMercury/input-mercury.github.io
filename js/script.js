@@ -1,10 +1,5 @@
 
 
-function checkActive(x) {
-
-
-}
-
 function setActive(x){
   var y = document.getElementById("tag1");
   y.className+= "active";
@@ -22,6 +17,5 @@ function myFunction() {
 
 function naviToggler(){
   var x = document.getElementById("navi-toggle");
-  x.checked= !x.checked;
-
+  x.checked= false;
 }

@@ -1,22 +1,20 @@
 html, body {
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
 
 @font-face {
   font-family: Archiveimport;
   font-weight: bold;
   src: url("Archive.otf") format("opentype"); }
-/**
-
-.landing{
-  margin-left: 20%; //margin left must be += to sidebard width;
-  background-color: #fff;
-  width:80%;
-  height: 100vh;
-  border: 1px solid black;
-}
-
-**/
+@font-face {
+  font-family: Lato;
+  font-weight: normal;
+  src: url("fonts/Lato-Light.ttf") format("opentype"); }
+@font-face {
+  font-family: Quicksand;
+  font-weight: normal;
+  src: url("fonts/Quicksand-Regular.ttf") format("opentype"); }
 
 /*# sourceMappingURL=global.css.map */

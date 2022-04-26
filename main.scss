@@ -4,6 +4,12 @@
   padding: 50px 0 0 50px;
   .content{
     transform: translateX(10%);
+    h1{
+      font-family: Lato;
+    }
+    p{
+      font-family: Lato;
+    }
   }
 }
 
@@ -28,17 +34,29 @@
     width: 66%;
     text-align: left;
     h2{
+      font-family: Lato;
       font-size: 3rem;
       font-weight: 500;
       width: 45%;
     }
     p{
+      font-family: Quicksand;
       width: 80%;
       font-size: 1.5rem;
     }
-    button{
-      padding: 0 7.5%;
-      margin-left: 20%;
+    .button-group{
+      margin-left: 7%;
+      button{
+        font-family: Quicksand;
+        padding: 1% 7.5%;
+        border: none;
+        background-color: #111;
+        border-radius: 25px;
+        a{
+          text-decoration: none;
+          color: white;
+        }
+      }
     }
   }
 }
@@ -54,7 +72,7 @@
     transform: translateX(15%);
   }
   ul{
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
     li{
       display: inline-block;
@@ -64,6 +82,13 @@
         height: 254px;
         width: 254px;
       }
+      p{
+        font-family: Lato;
+        a, a:active{
+          text-decoration: underline;
+          color: inherit;
+        }
+      }
     }
   }
 }
@@ -72,7 +97,11 @@
   text-align: center;
   padding: 100px 0;
   h1{
+    font-family: Lato;
     margin: 0 15%;
+  }
+  p{
+    font-family: Lato;
   }
 }
 

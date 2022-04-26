@@ -4,6 +4,10 @@
   padding: 50px 0 0 50px; }
   .footer .content {
     transform: translateX(10%); }
+    .footer .content h1 {
+      font-family: Lato; }
+    .footer .content p {
+      font-family: Lato; }
 
 .container-row {
   display: inline-block;
@@ -24,15 +28,25 @@
     width: 66%;
     text-align: left; }
     .container-row #container-content h2 {
+      font-family: Lato;
       font-size: 3rem;
       font-weight: 500;
       width: 45%; }
     .container-row #container-content p {
+      font-family: Quicksand;
       width: 80%;
       font-size: 1.5rem; }
-    .container-row #container-content button {
-      padding: 0 7.5%;
-      margin-left: 20%; }
+    .container-row #container-content .button-group {
+      margin-left: 7%; }
+      .container-row #container-content .button-group button {
+        font-family: Quicksand;
+        padding: 1% 7.5%;
+        border: none;
+        background-color: #111;
+        border-radius: 25px; }
+        .container-row #container-content .button-group button a {
+          text-decoration: none;
+          color: white; }
 
 .container {
   overflow: hidden;
@@ -43,7 +57,7 @@
   .container .project-section-heading {
     transform: translateX(15%); }
   .container ul {
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto; }
     .container ul li {
       display: inline-block;
@@ -52,12 +66,20 @@
       .container ul li img {
         height: 254px;
         width: 254px; }
+      .container ul li p {
+        font-family: Lato; }
+        .container ul li p a, .container ul li p a:active {
+          text-decoration: underline;
+          color: inherit; }
 
 #quote {
   text-align: center;
   padding: 100px 0; }
   #quote h1 {
+    font-family: Lato;
     margin: 0 15%; }
+  #quote p {
+    font-family: Lato; }
 
 .checkbox {
   display: none; }
