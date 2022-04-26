@@ -5,18 +5,23 @@
     <title>Matt Elvidge's Portfolio</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="main.css">
-    <script type="text/javascript"src="js/script.js"></script>
+    <script type="text/javascript"src="js\script.js"></script>
   </head>
   <body>
 
-    <div class="navbar" id="navbar">
-      <ul>
-        <li><a href="#home" id="tag1">home</a></li>
-        <li><a href="#home" id="tag2">about</a></li>
-        <li><a href="#work" id="tag3">my portfolio</a></li>
-        <li><a href="#contact" id="tag4">contact</a></li>
+    <input type="checkbox" id="navi-toggle" class="checkbox" />
+      <label for="navi-toggle" class="button">
+        <span class="icon">&nbsp;</span>
+      </label>
+    <div class="background">&nbsp;</div>
+    <nav class="nav">
+      <ul class="list">
+        <li class="item"> <a class="link" href="#home" onclick="naviToggler()"> Home </a> </li>
+        <li class="item"> <a class="link" href="#home" onclick="naviToggler()"> About </a> </li>
+        <li class="item"> <a class="link" href="#work" onclick="naviToggler()"> My Projects </a> </li>
+        <li class="item"> <a class="link" href="#contact" onclick="naviToggler()"> Contact M.E. </a> </li>
       </ul>
-    </div>
+    </nav>
 
     <div id="home"class="container-row">
       <div id="container-image">
@@ -75,10 +80,12 @@
       </ul>
     </div>
     <div id="contact"class="footer"style="background-color: #19c29547;">
-      <h1>How to Contact M.E.</h1>
-      <p>Baltimore, MD, 21234</p>
-      <p>mattelvid@gmail.com</p>
-      <p>(301) 633-1259</p>
+      <div class="content">
+        <h1>How to Contact M.E.</h1>
+        <p>Baltimore, MD, 21234</p>
+        <p>mattelvid@gmail.com</p>
+        <p>(301) 633-1259</p>
+      </div>
     </div>
 
   </body>
