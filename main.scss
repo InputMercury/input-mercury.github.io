@@ -48,13 +48,18 @@
       margin-left: 7%;
       button{
         font-family: Quicksand;
-        padding: 1% 7.5%;
         border: none;
         background-color: #111;
         border-radius: 25px;
+        margin: 0 1%;
         a{
           text-decoration: none;
           color: white;
+          display: block;
+          padding: 10px 50px;
+          &:hover{
+            font-weight: bold;
+          }
         }
       }
     }
@@ -93,6 +98,13 @@
   }
 }
 
+#container-image {
+  img{
+  width: 375px;
+  border-radius: 20%;
+  }
+}
+
 #quote{
   padding: 100px 0;
   h1{
@@ -113,6 +125,7 @@
   }
   .skills{
     margin-top: 45px;
+    padding-bottom: 50px;
     text-align: center;
     ul{
       margin-top: 40px;
@@ -125,14 +138,21 @@
         padding: 10px 25px;
         margin: 12px 10px;
         &:hover{
-          padding: 12px 30px;
-          transition: .2s ease-out;
+          background-color: black;
+          color: white;
+          transition: .2s ease;
+          font-weight: bold;
           cursor: grab;
         }
       }
     }
   }
 }
+
+.mail{
+  display: none;
+}
+
 
 
 .checkbox {
