@@ -1,0 +1,26 @@
+.text-responsive {
+  font-size: calc(50% + 0.5vw + 0.5vh);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.carousel-item {
+  height: 60vh;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel-item img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.green {
+  color: green;
+}
+
+.pencil-card {
+  height: 60vh;
+  margin: 10vh 0vh;
+}

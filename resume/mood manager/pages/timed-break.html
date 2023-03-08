@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mercury Mood Manager</title>
+    <link rel="stylesheet" href="../source/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</head>
+  <body>
+
+    <!--  NAVBAR -->
+    <div class="navbar navbar-dark bg-warning bg-gradient navbar-expand-lg">
+      <div class="container-fluid text-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="../index.html"class="display-3 m-auto navbar-title text-light" style="text-decoration: none;">Mercury</a>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse text-light" id="navbar1">
+      <div class="bg-warning bg-gradient p-3">
+        <a href="account.html" class="nav-link"> <h6>Account</h6> </a>
+        <a href="user-profile.html#moodchart" class="nav-link"> <h6>My Mood Chart</h6> </a>
+        <a href="user-profile.html#goals" class="nav-link"> <h6>My Goals</h6> </a>
+        <a href="user-profile.html#affirmations" class="nav-link"> <h6>My Affirmations</h6> </a>
+      </div>
+    </div>
+    <!-- NAVBAR END -->
+
+    <div class="container text-center m-auto">
+      <h2 class="display=1">Timed Break!</h2>
+      <p id="timer"></p>
+
+      <p id="timer"></p>
+
+      <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date().getTime() + 15 * 60 * 1000;
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for hours, minutes and seconds
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="timer"
+        if (hours === 0) {
+          document.getElementById("timer").innerHTML =  minutes + ":" + seconds;
+        }
+        else {
+          document.getElementById("timer").innerHTML =  hours + ":"
+          + minutes + ":" + seconds;
+        }
+        document.getElementById("timer").classList.add('text-primary');
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+      </script>
+
+    </div>
+  </body>
+</html>

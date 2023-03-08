@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+    <script>
+      function showAnswer() {
+        var element = document.getElementById("selection1");
+        element.classList.add("bg-success");
+        element = document.getElementById("selection2");
+        element.classList.add("bg-success");
+        element = document.getElementById("selection3");
+        element.classList.add("bg-success");
+        element = document.getElementById("selection4");
+        element.classList.add("bg-danger");
+      }
+    </script>
+
+    <nav class="navbar navbar-light bg-blue navbar-expand-sm justify-content-md-center">
+
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar navbar-center navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-red" href="lesson_1.html">Lesson 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lesson_2.html">Lesson 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lesson_3.html">Lesson 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-5 my-5">
+      <div class="container">
+        <h1>Lesson One: "Nebulae"</h1>
+        <hr class="my-5" />
+
+        <div class="row welcome my-5">
+          <h3 class="col-sm-10 mb-5">What are nebulae?</h3>
+          <div class="col-sm-6 lead">
+            <p class="text-responsive"><span class=" font-bold">Our</> solar system began in a nebula about 15 billion years ago. All the matter in the universe was packed into an incredibly small, dense area. A huge explosion happened, and everything scattered in all directions. Over billions of years, gravity pulled space dust and gases together into clouds. These huge, shining clouds are called nebulae—
+              a single cloud is called a nebula. Many stars, like our sun, were born in the clouds of the nebulae.
+            </p>
+          </div>
+          <div class="col-sm-6 ">
+            <img class="img-fluid "src="images\lesson_1\nebulae_1.jpg" alt="Nebulae.jpg">
+          </div>
+        </div>
+
+        <hr class="my-5" />
+        <p class="lead px-5 my-5 text-responsive">The largest, most violent star-forming region known lies in the Tarantula Nebula. The bright knot of stars to the left of the center contains many of the largest, hottest, and brightest stars known. Click through the slideshow to see a variety of known nebulae found in our galaxy and beyond. </p>
+
+  <!-- carousel -->
+        <div id="demo" class="carousel slide carousel-fade w-100 mh-50" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner h-50">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images\lesson_1\orion_nebula.jpg" alt="NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team [Public domain], via Wikimedia Commons">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Orion Nebula</h5>
+                  <p>NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team [Public domain], via Wikimedia Commons</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images\lesson_1\Crab_Nebula.jpg" alt="NASA, ESA, J. Hester and A. Loll (Arizona State University) [Public domain], via Wikimedia Commons">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Crab Nebula</h5>
+                  <p>NASA, ESA, J. Hester and A. Loll (Arizona State University) [Public domain], via Wikimedia Commons</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images\lesson_1\ring_nebula.jpg" alt="NASA, ESA, and C. Robert O’Dell (Vanderbilt University) [Public domain], via Wikimedia Commons">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Ring Nebula</h5>
+                  <p>NASA, ESA, and C. Robert O’Dell (Vanderbilt University) [Public domain], via Wikimedia Commons</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images\lesson_1\carina_nebula.jpg" alt="NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team [Public domain], via Wikimedia Commons">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Carina Nebula</h5>
+                  <p>NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team [Public domain], via Wikimedia Commons</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images\lesson_1\horsehead_nebula.jpg" alt="ESA/Hubble [CC BY 4.0], via Wikimedia Commons">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Horsehead Nebula</h5>
+                  <p>ESA/Hubble [CC BY 4.0], via Wikimedia Commons</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+            <hr class="mb-5" />
+          </div>
+          <!-- end carousel -->
+          <div class="jumbotron">
+            <h2 class="mb-5 mt-2">
+              Q: What are some differences you notice between the nebulae in the pictures?
+            </h2>
+
+            <div class=" container">
+              <div class="form-check my-2"id="selection1">
+                <input class="p-5 form-check-input" type="checkbox" value="">
+                <label class="lead form-check-label" for="Check1">
+                  colors
+                </label>
+              </div>
+              <div class="form-check my-2"id="selection2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="lead form-check-label" for="Check2">
+                  shapes
+                </label>
+              </div>
+              <div class="form-check my-2"id="selection3">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="lead form-check-label" for="Check3">
+                  amount of brightness
+                </label>
+              </div>
+              <div class="form-check my-2"id="selection4">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="lead form-check-label" for="Check4">
+                  none of the above
+                </label>
+              </div>
+            </div>
+
+            <button class="rounded border-1 mt-5 mt-3 p-3 button "type="button" onClick="showAnswer()" name="button">Check answer</button>
+
+          </div>
+
+          <div class="container text-center">
+            <button class="text-center rounded my-5 lead btn-info" type="button" name="button"><a class="btn"href="lesson_2.html">Next Page</a></button>
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>

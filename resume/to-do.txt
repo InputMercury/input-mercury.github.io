@@ -1,0 +1,1 @@
+copy email to clipboard and popup saying 'Copied to Clipboard!'

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js\main.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-md-center">
+
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar navbar-center navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="lesson_1.html">Lesson 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lesson_2.html">Lesson 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lesson_3.html">Lesson 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-3 my-3">
+      <div class="container col-sm-8">
+        <div class="jumbotron bg-light">
+        <h1 class="page-header">Lesson Two: "The hands of a poor <span class="font-italic">campesina</span>"</h1>
+        <hr/>
+        <h4 class="my-4">What do Esperanza's hands suggest about her whole life?</h3>
+
+        <div class="row">
+          <p class="col lead">Sometimes, an author uses a single scene to communicate a big idea that the author doesn’t want readers to miss. Pam Muñoz Ryan creates such as scene at the beginning of “<span class="font-italic">Los Aguacates</span>: Avocados.” This scene is brief, but it develops an important theme, or important idea about human experience, in the novel and helps to move the plot forward.</p>
+          <p class="col lead">Read the opening pages of “<span class="font-italic">Los Aguacates</span>: Avocados” closely again. Then, review the details from the scene listed below before answering a question about what the scene adds to the novel’s plot and themes.</p>
+        </div>
+
+      </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid"src="images\lesson_2\pic_1.jpg" alt="Shutterstock ID 485480065">
+          </div>
+          <div class="col">
+            <img class="img-fluid"src="images\lesson_2\pic_2.jpg" alt="Shutterstock ID 170844251">
+          </div>
+          <div class="col">
+            <img class="img-fluid"src="images\lesson_2\pic_3.jpg" alt="Shutterstock ID 245042380">
+          </div>
+        </div>
+
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link text-secondary" data-toggle="collapse" href="#collapseOne">
+                Working Hands
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+              <div class="card-body">
+                After tying grape canes for days in the cold, foggy weather, Esperanza soaks her tired hands in warm water and realizes something: “she no longer recognized them as her own.” They are so beaten up and swollen that they seem like “the hands of a very old man.” How might this realization make her feel?
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link text-secondary" data-toggle="collapse" href="#collapseTwo">
+              Fortunate Hands
+            </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Hortensia says that they are “lucky” to have avocados, which are not in season. Friends brought the fruits from Los Angeles. Esperanza is lucky, too, to have Hortensia’s help and friendship. How might Esperanza feel as she watches Hortensia make the lotion, as she did for Mama when they were back in Mexico?
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link text-secondary" data-toggle="collapse" href="#collapseThree">
+                Remembering Hands
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Seeing her hands coated in Hortensia’s homemade avocado lotion brings memories to Esperanza’s mind: Mama’s smooth, soft hands and how quickly she worked with the crochet hook; Mama’s grace and presence; Mama’s bright, confident laughter. What mixed emotions might these memories cause?
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link text-secondary" data-toggle="collapse" href="#collapseFour">
+                <span class="font-italic">Campesina's</span> Hands
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                A <span class="font-italic">campesina</span> is a girl or woman who works the farms. As Esperanza applies another coat of avocado lotion, she admits the truth: she will never again have hands like those of “a wealthy woman from El Rancho de las Rosas.”
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group my-5 green-border-focus">
+          <label for="exampleFormControlTextarea"><p>Q: What important idea does Esperanza’s realization about her hands develop? As you respond, think about the long journey she is on as she learns to live without Papa and worries about having to live without Mama and Abuelita.</p>
+          </label>
+          <textarea class="form-control" id="exampleFormControlTextarea" rows="3"></textarea>
+
+        <div class="container text-center my-3">
+          <button onclick=""class="btn btn-secondary"type="button" data-toggle="modal" data-target="#submitModal" onclick="disableArea()" name="button">Submit Response</button>
+          <button onclick=""class="btn btn-secondary"type="button" data-toggle="modal" data-target="#answerModal" name="button">See Answer</button>
+        </div>
+
+        <div class="modal fade" id="submitModal" role="dialog">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p class="text-success">Thank you for submitting your response!</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="answerModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p class="text-success"><strong>[Correct Response]: </br></strong> In this scene, Esperanza’s realization that her hands will never again be soft and supple points to an important idea: the future she had always imagined, as a wealthy <span class="font-italic">patrona</span> of a big ranch in Mexico, is no longer a possibility. She expected that she would grow up to be the lady of the ranch, as her mother had been. When she admits that she is now “a poor campesina,” Esperanza is letting go of that future and accepting other possible futures instead. It’s as if she’s reached an important milestone in her journey and now fully understands that there’s no going back.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+
+      <div class="container text-center">
+        <button class="text-center rounded my-5 lead btn-info" type="button" name="button"><a class="btn"href="lesson_1.html">Previous Page</a></button>
+        <button class="text-center rounded my-5 lead btn-info" type="button" name="button"><a class="btn"href="lesson_3.html">Next Page</a></button>
+      </div>
+
+
+    </div>
+  </body>
+</html>

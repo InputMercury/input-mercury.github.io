@@ -1,0 +1,25 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
+
+@font-face {
+  font-family: Archiveimport;
+  font-weight: bold;
+  src: url("../../resources/fonts/Archive.otf") format("opentype"); }
+@font-face {
+  font-family: Lato;
+  font-weight: normal;
+  src: url("Lato-Light.ttf") format("opentype"); }
+@font-face {
+  font-family: Quicksand;
+  font-weight: normal;
+  src: url("../../resources/fonts/Quicksand-Regular.ttf") format("opentype"); }
+.lato {
+  font-family: Lato; }
+
+.quicksand {
+  font-family: Quicksand !important; }
+
+/*# sourceMappingURL=global.css.map */
