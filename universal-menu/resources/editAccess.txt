@@ -1,2 +1,0 @@
-START \Documents\Programs\atom.io\atom\atom.exe
-START menu.exe
